@@ -49,7 +49,7 @@ const FluidHoverCard:React.FC<FluidHoverCardType> = ({data, option}) => {
                             </div>
                             {
                                 cardInfo.link &&
-                                    <div className="w-[30%] flex flex-col justify-end pl-2">
+                                    <div className="w-[30%] flex flex-col justify-end items-end px-2">
                                         {
                                             cardInfo.link.map((link, index:number) => {
                                                 if(link.linkElement){
